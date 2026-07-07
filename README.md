@@ -45,3 +45,18 @@ The platform transforms passive complaining into an active, rewarding civic cont
 ---
 
 ## ⚙️ System Workflow
+## 🧠 Advanced AI & Security Implementations
+
+To ensure production readiness and prevent platform misuse, the following advanced architectural patterns are integrated:
+
+* **Geofencing & Metadata Verification:** To prevent fake complaints for farming 'Bharat Points', the platform extracts EXIF data from uploaded images. It validates device GPS coordinates against the user's reported location, filtering out coordinates outside permitted municipality bounds.
+* **Semantic De-duplication:** Uses lightweight vector embeddings to check if a similar issue (e.g., the same pothole) has already been reported nearby within the last 48 hours, blocking duplicate spam and saving administration bandwidth.
+* **LLM Guardrails & PII Masking:** Implements basic regex and formatting rules before hitting the Gemini API to mask Personally Identifiable Information (PII) like personal phone numbers or specific house addresses from being processed raw into the public training data logs, ensuring **Data Privacy & Compliance**.
+
+---
+
+## 📈 Scalability & Business Model (Future Roadmap)
+
+* **CSR Sponsorship Loop:** The *Bharat Rewards* ecosystem is funded via a B2B corporate model. Green energy companies and local businesses buy advertising spaces on the dashboard or sponsor points as part of their **Corporate Social Responsibility (CSR)** carbon-offset initiatives.
+* **Government Dashboard Integration:** A specialized administrative interface featuring real-time analytical data maps, heatmaps of high-incident areas, and automated turnaround time metrics for municipal commissioners.
+*
