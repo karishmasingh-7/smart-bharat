@@ -1,35 +1,47 @@
-# Smart Bharat - Digital Governance & Civic Engagement Platform
+# 🏛️ Smart Bharat - AI-Powered Civic Platform
 
-Smart Bharat is an advanced, full-stack digital governance platform designed to bridge the gap between citizens and local government authorities. The platform empowers users to report civic issues, track real-time resolutions, and participate in community decision-making, while providing administrators with a powerful dashboard to streamline public services.
-
-## 🚀 Live Deployment
-Check out the live application here: 
-👉 **[Smart Bharat Live Link](https://smart-bharat-karishmasingh-7s-projects.vercel.app/login)**
+### 🌐 Live Demo: [smart-bharat-full-st-mmte.bolt.host](https://smart-bharat-full-st-mmte.bolt.host)
 
 ---
 
-## ✨ Key Features
+## 🚀 Project Overview
+**Smart Bharat** is a next-generation full-stack digital governance platform designed under the **Digital India Initiative**. It aims to bridge the communication gap between citizens and local government authorities. Leveraging the capabilities of advanced LLMs, the platform automates civic issue reporting, intelligently routes grievances to responsible departments, and provides 24/7 localized support.
 
-* **🔒 Secure Authentication:** Role-based access control for Citizens, Officials, and System Administrators.
-* **📢 Civic Issue Reporting:** Citizens can log grievances with images, geo-location tagging, and category classification.
-* **📊 Dynamic Admin Dashboard:** Real-time analytics, issue tracking status (Pending, In-Progress, Resolved), and automated department routing.
-* **💬 Public Feedback System:** Direct communication channel between citizens and local authorities to ensure transparency.
-* **📱 Responsive & Modern UI:** Optimized for seamless performance across smartphones, tablets, and desktops.
+The platform transforms passive complaining into an active, rewarding civic contribution through gamification, ensuring long-term citizen engagement and transparent governance.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Architecture
 
-* **Frontend:** Next.js, React.js, Tailwind CSS, TypeScript
-* **State Management & UI:** Shadcn/ui, Lucide React Icons
-* **Deployment & Hosting:** Vercel
+* **Frontend Architecture:** React.js, Vite, Tailwind CSS (Fully responsive, mobile-first design)
+* **AI & NLP Engine:** Google Gemini Pro / Gemini Flash API Integration
+* **Routing & State Management:** React Router v6, Context API, and Persistent LocalStorage
+* **Icons & UI Assets:** Lucide React (Clean, modern SVG-based iconography)
+* **Deployment Platform:** Bolt.host / Production-ready optimized build
 
 ---
 
-## 📦 Local Installation & Setup
+## ✨ Key Features & Technical Implementation
 
-Follow these steps to run the project locally:
+### 1. 🤖 AI Sahayak (Context-Aware Multilingual Chatbot)
+* **Endpoint:** `/chat`
+* **Tech Inside:** Powered by the Google Gemini API.
+* **Capabilities:** It is a **Hinglish-ready** AI assistant optimized for Indian users. It handles contextual queries regarding government schemes, documentation processes, and civic rights, acting as a virtual helpdesk for digital inclusion.
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/karishmasingh-7/smart-bharat.git](https://github.com/karishmasingh-7/smart-bharat.git)
+### 2. 📝 Smart Report Routing & Automation
+* **Endpoint:** `/report`
+* **Capabilities:** Citizens can instantly report civic issues (e.g., potholes, waste management, broken streetlights). 
+* **AI Logic:** The system uses Natural Language Processing (NLP) to parse the description, automatically categorize the problem, and simulate routing to the correct municipal department, eliminating manual human sorting delays.
+
+### 3. 📊 Real-Time Citizen Dashboard
+* **Endpoint:** `/dashboard`
+* **Capabilities:** Provides cross-city transparency with clean UI data visualizations.
+* **Metrics Tracked:** Real-time progress monitoring, severity indicators (Low, Medium, Critical) determined by the urgency of the reported issue, and dynamic status updates.
+
+### 4. 🎁 Bharat Rewards (Gamification & Retention Engine)
+* **Endpoint:** `/rewards`
+* **Concept:** To prevent platform drop-offs, a tokenized **"Bharat Points"** system is implemented. Citizens earn points for every successfully verified report, which can be redeemed for metro discounts, utility waivers, or eco-friendly perks. (Sustained via simulated Corporate Social Responsibility (CSR) fund allocations).
+
+---
+
+## ⚙️ System Workflow
