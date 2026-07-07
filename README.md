@@ -17,7 +17,7 @@ The platform transforms passive complaining into an active, rewarding civic cont
 * **AI & NLP Engine:** Google Gemini Pro / Gemini Flash API Integration
 * **Routing & State Management:** React Router v6, Context API, and Persistent LocalStorage
 * **Icons & UI Assets:** Lucide React (Clean, modern SVG-based iconography)
-* **Deployment Platform:** Bolt.host / Production-ready optimized build
+* **Deployment Platform:** Production-ready optimized deployment
 
 ---
 
@@ -44,7 +44,6 @@ The platform transforms passive complaining into an active, rewarding civic cont
 
 ---
 
-## ⚙️ System Workflow
 ## 🧠 Advanced AI & Security Implementations
 
 To ensure production readiness and prevent platform misuse, the following advanced architectural patterns are integrated:
@@ -55,8 +54,4 @@ To ensure production readiness and prevent platform misuse, the following advanc
 
 ---
 
-## 📈 Scalability & Business Model (Future Roadmap)
-
-* **CSR Sponsorship Loop:** The *Bharat Rewards* ecosystem is funded via a B2B corporate model. Green energy companies and local businesses buy advertising spaces on the dashboard or sponsor points as part of their **Corporate Social Responsibility (CSR)** carbon-offset initiatives.
-* **Government Dashboard Integration:** A specialized administrative interface featuring real-time analytical data maps, heatmaps of high-incident areas, and automated turnaround time metrics for municipal commissioners.
-*
+## ⚙️ System Workflow
