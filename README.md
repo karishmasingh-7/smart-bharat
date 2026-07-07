@@ -1,6 +1,6 @@
 # 🏛️ Smart Bharat - AI-Powered Civic Platform
 
-### 🌐 Live Demo: [smart-bharat-full-st-mmte.bolt.host](https://smart-bharat-full-st-mmte.bolt.host)
+### 🌐 Live Demo: https://smart-bharat-full-st-mmte.bolt.host
 
 ---
 
